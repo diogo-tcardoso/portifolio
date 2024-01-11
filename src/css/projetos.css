@@ -1,6 +1,3 @@
-.projetos {
-    background-color: var(--cor-fundo-cinza-claro);
-}
 .projetos .container-projetos {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -26,7 +23,8 @@
 
 .projetos .container-projetos .projeto:hover,
 .projetos .container-projetos .projeto:hover .informacoes-projeto {
-    opacity: 0.8;
+    opacity: 0.9;
+    color: var(--cor-primaria);
 }
 
 .projetos .container-projetos .projeto img {
@@ -52,6 +50,7 @@
     position: absolute;
     bottom: 0;
     background-color: var(--cor-fundo-escuro);
+    color: var(--cor-primaria);
     width: 100%;
     padding-left: 20px;
     padding-bottom: 10px;

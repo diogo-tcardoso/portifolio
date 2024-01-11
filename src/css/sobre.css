@@ -1,20 +1,17 @@
-.sobre-mim {
-    background-color: var(--cor-fundo-cinza-claro);
-}
 .sobre-mim .imagem-sobre-mim {
-    max-width: 40%;
+    max-width: 50%;
     padding: 0 15px;
 }
 
 .sobre-mim .imagem-sobre-mim .img-box {
-    padding: 15px;
-    border-radius: 5px;
+    padding: 5px;
+    border-radius: 20px;
     text-align: center;
 }
 
 .sobre-mim .imagem-sobre-mim img {
-    border: 10px solid transparent;
-    border-radius: 5px;
+    border: 0.5px solid transparent;
+    border-radius: 20px;
 }
 
 .sobre-mim .informacoes-sobre-mim {
@@ -29,6 +26,7 @@
 .sobre-mim .informacoes-sobre-mim p {
     font-size: 1.8rem;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 @media (max-width: 1280px) {

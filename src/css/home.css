@@ -22,7 +22,8 @@
 .home .img-home .img-box img {
     width: 100%;
     border-radius: 50%;
-    border: 20px solid transparent;
+    border: 0.1px solid transparent;
+    background-color: var(--cor-fundo-escuro);
 }
 
 .home .text-home p {

@@ -4,12 +4,13 @@
 html {
     font-size: 62.5%;
     font-weight: 300;
-    color: var(--cor-branca);
+    color: var(--cor-fundo-escuro);
     scroll-behavior: smooth;
   }
 
 body {
-  background-color: var(--cor-fundo-cinza-escuro);
+  background: rgb(11,250,2);
+  background: linear-gradient(139deg, rgba(11,250,2,1) 0%, rgba(54,173,53,1) 20%, rgba(0,0,0,1) 67%);
   font-family: var(--fonte-primaria);
   font-size: var(--fonte-normal);
 }
@@ -37,6 +38,8 @@ body {
   width: 40px;
   height: 40px;
   font-size: 1.8rem;
+  background-color: var(--cor-fundo-escuro);
+  color: var(--cor-primaria);
   text-align: center;
   margin: 0 4px;
   border-radius: 50%;
@@ -44,7 +47,8 @@ body {
 }
 
 .redes-sociais a:hover {
-  color: var(--cor-primaria);
+  color: var(--cor-fundo-escuro);
+  background-color: var(--cor-primaria);
 }
 
 .redes-sociais a i {
@@ -56,7 +60,7 @@ body {
 }
 
 .inner-shadow {
-  box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
+  box-shadow: inset 5px 5px 5px #222327, inset -5px -5px 5px #454545;
 }
 
 .section {
@@ -68,23 +72,28 @@ body {
   flex: 0 0 100%;
   max-width: 100%;
   padding: 60px 0;
+  color: var(--cor-primaria);
 }
 
 .section-title h2 {
   font-size: var(--fonte-gigante);
+  color: var(--cor-primaria);
   font-weight: 500;
   text-transform: uppercase;
 }
 
 .botao {
   font-size: var(--font-grande);
+  font-weight: bold;
   padding: 10px 20px;
   border-radius: 20px;
   transition: all 0.3s ease;
-  background-color: var(--cor-primaria);
+  background-color: var(--cor-fundo-escuro);
+  color: var(--cor-primaria);
 }
 
 .botao:hover {
-  background-color: var(--cor-secundaria);
-  color: var(--cor-branca)
+  background-color: var(--cor-primaria);
+  color: var(--cor-fundo-escuro);
+  font-weight: bold;
 }

@@ -5,7 +5,9 @@
 .header .logo {
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-extra-grande);
-    border: 2px solid var(--cor-branca);
+    border: 2px solid var(--cor-fundo-escuro);
+    background-color: var(--cor-fundo-escuro);
+    color: var(--cor-primaria);
     border-radius: 50%;
     width: 65px;
     height: 65px;
@@ -16,8 +18,9 @@
 }
 
 .header a:hover .logo {
-    color: var(--cor-primaria);
-    border: 2px solid var(--cor-primaria);
+    color: var(--cor-fundo-escuro);
+    border: 2px solid var(--cor-fundo-escuro);
+    background-color: var(--cor-primaria);
 }
 
 .header nav ul {
@@ -25,7 +28,7 @@
 }
 
 .header nav li a {
-    color: var(--cor-branca);
+    color: var(--cor-fundo-escuro);
     text-transform: capitalize;
     font-size: 2rem;
     font-weight: 500;
@@ -37,7 +40,8 @@
 }
 
 .header nav ul li a:hover {
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-fundo-escuro);
+    color: var(--cor-primaria);
 }
 
 .header .menu {
