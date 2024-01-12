@@ -49,6 +49,7 @@ body {
 .redes-sociais a:hover {
   color: var(--cor-fundo-escuro);
   background-color: var(--cor-primaria);
+  transform: scale(1.1);
 }
 
 .redes-sociais a i {
